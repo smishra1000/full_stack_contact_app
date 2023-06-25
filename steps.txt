@@ -1,0 +1,14 @@
+step for full stack project 
+
+1> create project folder--full_stack_project 
+2>create backend folder inside that
+3>create frontend folder using create-react-app tool
+4>go to backend folder --enter npm init command and just press enter for each question
+        it will create package.json file for you
+
+
+backend install these packages---express framework, body-parser for parse body data, mongoose orm tool for connecting mongo , cors for cross origin issues, nomon for auto restart server
+  1> npm install express, body-parser mongoose cors nodemon
+  2> create server.js file to create a http server using node express
+  3>load the express and create app and listen it on port 7000
+  4>npm start -----to start the backend server

@@ -1,0 +1,117 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+body{
+  height:100vh;
+  background-color: cyan !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+figure.user-card {
+  background: #ffffff;
+  padding: 20px;
+  border-top: 3px solid #f2f2f2;
+  border: 1px solid #e1e5f1;
+  text-align: center;
+}
+
+
+figure.user-card.green {
+  border-top: 3px solid #3ecfac;
+}
+
+
+figure.user-card .profile {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 72px;
+  margin-bottom: 20px;
+}
+
+figure.user-card h5 {
+  margin: 0 0 5px 0;
+}
+
+figure.user-card h6 {
+  margin: 0 0 15px 0;
+  color: #8796af;
+  font-size: 14px;
+}
+
+figure.user-card p {
+  margin: 0;
+  padding: 0 0 15px 0;
+  color: #8796af;
+  line-height: 150%;
+  font-size: .85rem;
+}
+
+figure.user-card ul.contacts {
+  margin: 0;
+  padding: 0 0 15px 0;
+  line-height: 150%;
+  font-size: .85rem;
+}
+
+figure.user-card ul.contacts li {
+  padding: .2rem 0;
+}
+
+figure.user-card ul.contacts li a {
+  color: #5a99ee;
+}
+
+figure.user-card ul.contacts li a i {
+  min-width: 36px;
+  float: left;
+  font-size: 1rem;
+}
+
+figure.user-card ul.contacts li:last-child a {
+  color: #ff5000;
+}
+
+ul li {
+  list-style-type: none;
+}
