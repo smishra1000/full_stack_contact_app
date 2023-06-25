@@ -12,3 +12,6 @@ backend install these packages---express framework, body-parser for parse body d
   2> create server.js file to create a http server using node express
   3>load the express and create app and listen it on port 7000
   4>npm start -----to start the backend server
+
+/* to push both folder remove .git file from frontend-- rm -rf .git 
+/* then at root level initialized repo */
